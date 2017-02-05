@@ -15,6 +15,20 @@ Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by press
 
 When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
 
+```{r}
+
+library(RODBC) 
+channel <- odbcDriverConnect('driver={SQL Server}; server=localhost\\MSSQLSERVER,1433; database=Weather; trusted_connection=true')
+
+queryTest <- paste0("SELECT top 100 * FROM NOAARawData")
+
+sqlQuery(channel, queryTest)
+
+```
+
+
+
+
 
 ```{r}
 #-----------------------------------------------------
