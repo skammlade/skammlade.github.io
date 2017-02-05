@@ -5,7 +5,7 @@ date:   2017-02-05
 categories: gmail
 ---
 
-I needed to backup emails from a university email account but could not use [Google's built in download data feature](https://support.google.com/accounts/answer/3024190?source=gsearch&hl=en) due to administrator restrictions. I found a nice work around on [jellybend](https://www.youtube.com/watch?v=otnsCc236oE) but ran into trouble with outdated code so updated the script.
+I needed to backup emails from a university email account but could not use [Google's built in download data feature](https://support.google.com/accounts/answer/3024190?source=gsearch&hl=en) due to administrator restrictions. I found a nice work around [here](https://www.youtube.com/watch?v=otnsCc236oE) but ran into trouble with outdated code so updated the script.
 
 
 
@@ -19,8 +19,8 @@ I needed to backup emails from a university email account but could not use [Goo
 3. At the top of "Archive Gmail Messages to Google Drive - Updated 2017/2" click "Gmail Archiver" -> "Initialize" and grant access to your gmail accounts.
 
 4. At the top of "Archive Gmail Messages to Google Drive - Updated 2017/2" click "Gmail Archiver" -> "Archive Gmail Messages" which will create 
- - a Gmail label named "Archive to Drive" and
- - a Google Drive folder named "Email Archive"
+* a Gmail label named "Archive to Drive" and
+* a Google Drive folder named "Email Archive"
  
 5. Go to Gmail. Scroll down to find "Archive to Drive" on the bottom left hand side of the screen (refresh the screen if it is not there).
 
