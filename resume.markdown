@@ -7,16 +7,16 @@ permalink: /resume/
 <br/>
 
 #### The Changing Global Diet
-**Project Summary:**  Create interactive data visualizations associated with the publication [Khoury et. al 2014](http://dx.doi.org/10.1073/pnas.1313490111).  These visualizations will be featured on a new website exploring socio-political insights into global production and consumption of crop diversity on https://ciat.cgiar.org/.
+**Project Summary:**  Create interactive data visualizations associated with the publication [Khoury et. al 2014](http://dx.doi.org/10.1073/pnas.1313490111).  These visualizations will be featured on a new website exploring socio-political insights into global production and consumption of crop diversity on [https://ciat.cgiar.org/](https://ciat.cgiar.org/).  
 **Organization:** International Center for Tropical Agriculture (CIAT), Crop Wild Relatives Research Unit   
 **Dates:** August 2016 - Present  
 **Temporary website:** [http://skammlade.github.io/projects/tableau/TheChangingGlobalDiet.html](http://skammlade.github.io/projects/tableau/TheChangingGlobalDiet.html) 
 **Workflow:**
 
 * excel data files  
-* create [SQL](https://github.com/skammlade/skammlade.github.io/tree/master/projects/tableau/SQLServerQueries) Server database for data transformations and analysis    
-* conduct statistical analysis in RStudio  
-* create interactive data visualizations in Tableau   
+* create database for data transformations and analysis in SQL Server [(SQL scripts)](https://github.com/skammlade/skammlade.github.io/tree/master/projects/tableau/SQLServerQueries)
+* conduct statistical analysis in R [(R scripts)](   ) 
+* create interactive data visualizations in Tableau 
 * build temporary website for collaboration using HTML    
 
 <br/>
@@ -24,12 +24,12 @@ permalink: /resume/
 #### Dietary fiber content in common bean from the middle american gene pool   
 **Project Summary:** Determine differences in fiber content (soluble fiber, insoluble fiber, and oligosaccharides) between races and market classes of dry beans. By quantifying one of the largest gene pools, breeders of *phaseoulous vulgaris* can use this information as a guide for choosing germplasm to incorporate into breeding programs with specific fiber improvement goals.    
 **Organization:** Colorado State University     
-**Dates:** May 2016 - Present   
+**Dates:** May 2016 - December 2016   
 **Code files:** [https://github.com/skammlade/manuscripts/tree/master/bean_fiber](https://github.com/skammlade/manuscripts/tree/master/bean_fiber)   
 **Workflow:**   
 
-* statistical analysis in RStudio (one-way ANOVA, )
-* data visualizations in RStudio using ggplot2
+* statistical analysis in SAS
+* data visualizations in R using ggplot2 
 * manuscript writing in RStudio using R Markdown
 
 <br/>
@@ -40,9 +40,10 @@ permalink: /resume/
 **Dates:** January 2013 - December 2015
 **Workflow:**
 
-* Experimental design, data collection
-* statistical analysis in SAS 
-* tables and figures in R Studio and microsoft Excel
+* experimental design  
+* data collection  
+* statistical analysis in SAS [(SAS scripts)](   )
+* tables and figures in R and microsoft Excel [(R scripts)](   )
 
 <br/>
 
@@ -50,4 +51,9 @@ permalink: /resume/
 **Project Summary:** A closer look at weather changes in major metro areas across the United States and an attempt at quantifying the change in weather events which negatively impact daily life. Data retrieved from NOAA.org
 **Organization:* Personal project
 **Dates:** 2017
+**Workflow:**  
+
+* retrieve data from NOAA
+* clean and transform data in SQL Server [(SQL scripts)]()
+* visualize in RShiny app 
 
