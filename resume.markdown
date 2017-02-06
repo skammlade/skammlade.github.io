@@ -16,6 +16,7 @@ permalink: /resume/
 * excel data files  
 * create database for data transformations and analysis in SQL Server [(SQL scripts)](https://github.com/skammlade/skammlade.github.io/tree/master/projects/tableau/SQLServerQueries)
 * conduct statistical analysis in R [(R scripts)](   ) 
+* create statistical report in R using R Markdown [(example report)](  )
 * create interactive data visualizations in Tableau 
 * build temporary website for collaboration using HTML    
 
@@ -24,13 +25,12 @@ permalink: /resume/
 #### Dietary fiber content in common bean from the middle american gene pool   
 **Project Summary:** Determine differences in fiber content (soluble fiber, insoluble fiber, and oligosaccharides) between races and market classes of dry beans. By quantifying one of the largest gene pools, breeders of *phaseoulous vulgaris* can use this information as a guide for choosing germplasm to incorporate into breeding programs with specific fiber improvement goals.    
 **Organization:** Colorado State University     
-**Dates:** May 2016 - December 2016   
-**Code files:** [https://github.com/skammlade/manuscripts/tree/master/bean_fiber](https://github.com/skammlade/manuscripts/tree/master/bean_fiber)   
+**Dates:** May 2016 - December 2016    
 **Workflow:**   
 
-* statistical analysis in SAS
-* data visualizations in R using ggplot2 
-* manuscript writing in RStudio using R Markdown
+* statistical analysis in SAS [(SAS scripts)](https://github.com/skammlade/manuscripts/tree/master/bean_fiber/SAS)
+* data visualizations in R using ggplot2 [(R scripts)](https://github.com/skammlade/manuscripts/tree/master/bean_fiber) 
+* reporting in R using R Markdown [(example report 1, ](https://github.com/skammlade/manuscripts/blob/master/bean_fiber/bean_fiber.Rmd) [example report 2)](https://github.com/skammlade/manuscripts/blob/master/bean_fiber/bean_fiber.pdf)
 
 <br/>
 
