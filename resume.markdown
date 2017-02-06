@@ -30,7 +30,7 @@ permalink: /resume/
 
 * statistical analysis in SAS [(SAS scripts)](https://github.com/skammlade/manuscripts/tree/master/bean_fiber/SAS)
 * data visualizations in R using ggplot2 [(R scripts)](https://github.com/skammlade/manuscripts/tree/master/bean_fiber) 
-* reporting in R using R Markdown [(example report 1, ](https://github.com/skammlade/manuscripts/blob/master/bean_fiber/bean_fiber.Rmd) [example report 2)](https://github.com/skammlade/manuscripts/blob/master/bean_fiber/bean_fiber.pdf)
+* reporting in R using R Markdown [(example report 1](https://github.com/skammlade/manuscripts/blob/master/bean_fiber/bean_fiber.Rmd) , [example report 2)](https://github.com/skammlade/manuscripts/blob/master/bean_fiber/bean_fiber.pdf)
 
 <br/>
 
