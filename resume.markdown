@@ -16,7 +16,7 @@ permalink: /resume/
 * excel data files  
 * create database for data transformations and analysis in SQL Server [(SQL scripts)](https://github.com/skammlade/skammlade.github.io/tree/master/projects/tableau/SQLServerQueries)
 * conduct statistical analysis in R [(R scripts)](https://github.com/skammlade/skammlade.github.io/blob/master/projects/tableau/RScripts/NMDS_decade.R) 
-* create statistical report in R using R Markdown [(example report)](https://github.com/skammlade/skammlade.github.io/blob/master/projects/tableau/RScripts/NMDSAnalysisReport.html)
+* create statistical report in R using R Markdown [(example report)](https://github.com/skammlade/skammlade.github.io/blob/master/projects/tableau/RScripts/NMDSAnalysisReport.Rmd)
 * create interactive data visualizations in Tableau 
 * build temporary website for collaboration using HTML    
 
@@ -35,10 +35,10 @@ permalink: /resume/
 <br/>
 
 #### Master's Thesis
-**Project Summary:** Evaluate the effects of management on soil health properties such as organic carbon, organic nitrogen, and soil microbial respiration; evalute the effects of location on soil food web composition where locations vary by amounts of soil organic carbon, organic nitrogen, and soil organic matter; determine the effects of potato genotype on soil food web composition.
-**Organization:** Colorado Potato Breeding and Selection Program  
-**Dates:** January 2013 - December 2015  
-**Workflow:**  
+**Project Summary:** Evaluate the effects of management on soil health properties such as organic carbon, organic nitrogen, and soil microbial respiration; evalute the effects of location on soil food web composition where locations vary by amounts of soil organic carbon, organic nitrogen, and soil organic matter; determine the effects of potato genotype on soil food web composition.   
+**Organization:** Colorado Potato Breeding and Selection Program    
+**Dates:** January 2013 - December 2015    
+**Workflow:**    
 
 * experimental design  
 * statistical analysis in SAS [(SAS scripts)](https://github.com/skammlade/manuscripts/tree/master/FoodWeb/SAS)
@@ -54,5 +54,6 @@ permalink: /resume/
 
 * retrieve data from NOAA  
 * clean and transform data in SQL Server [(SQL scripts)](https://github.com/skammlade/WeatherDataAnalysis)  
-* visualize in RShiny app [(R scripts)](https://github.com/skammlade/WeatherDataAnalysis/tree/master/PrecipitationRankApp) 
+* visualize in [RShiny app](https://skammlade.shinyapps.io/precipitationrankapp/) [(R scripts)](https://github.com/skammlade/WeatherDataAnalysis/tree/master/PrecipitationRankApp) 
+* markdown walkthrough [(README.md)](https://github.com/skammlade/WeatherDataAnalysis/blob/master/README.md)
 
