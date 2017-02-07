@@ -34,6 +34,19 @@ permalink: /resume/
 
 <br/>
 
+#### Weather Data Analysis
+**Project Summary:** A closer look at weather changes in major metro areas across the United States. I looked at the greatest 100 hourly precipitation events from 1950-2016 in 9 major cities.
+**Organization:** Personal project  
+**Dates:** 2017  
+**Workflow:**    
+
+* retrieve data from NOAA  
+* clean and transform data in SQL Server [(SQL scripts)](https://github.com/skammlade/WeatherDataAnalysis)  
+* visualize in [RShiny app](https://skammlade.shinyapps.io/precipitationrankapp/) [(R scripts)](https://github.com/skammlade/WeatherDataAnalysis/tree/master/PrecipitationRankApp) 
+* markdown walkthrough [(README.md)](https://github.com/skammlade/WeatherDataAnalysis/blob/master/README.md)
+
+<br/>
+
 #### Master's Thesis
 **Project Summary:** Evaluate the effects of management on soil health properties such as organic carbon, organic nitrogen, and soil microbial respiration; evalute the effects of location on soil food web composition where locations vary by amounts of soil organic carbon, organic nitrogen, and soil organic matter; determine the effects of potato genotype on soil food web composition.   
 **Organization:** Colorado Potato Breeding and Selection Program    
@@ -46,14 +59,5 @@ permalink: /resume/
 
 <br/>
 
-#### Weather Changes in Major U.S. Cities from 1940s-2016
-**Project Summary:** A closer look at weather changes in major metro areas across the United States and an attempt at quantifying the change in weather events which negatively impact daily life. Data retrieved from NOAA.org  
-**Organization:** Personal project  
-**Dates:** 2017  
-**Workflow:**    
 
-* retrieve data from NOAA  
-* clean and transform data in SQL Server [(SQL scripts)](https://github.com/skammlade/WeatherDataAnalysis)  
-* visualize in [RShiny app](https://skammlade.shinyapps.io/precipitationrankapp/) [(R scripts)](https://github.com/skammlade/WeatherDataAnalysis/tree/master/PrecipitationRankApp) 
-* markdown walkthrough [(README.md)](https://github.com/skammlade/WeatherDataAnalysis/blob/master/README.md)
 
