@@ -16,7 +16,7 @@ permalink: /resume/
 * excel data files  
 * create database for data transformations and analysis in SQL Server [(SQL scripts)](https://github.com/skammlade/skammlade.github.io/tree/master/projects/tableau/SQLServerQueries)
 * conduct statistical analysis in R [(R scripts)](https://github.com/skammlade/skammlade.github.io/blob/master/projects/tableau/RScripts/NMDS_decade.R) 
-* create statistical report in R using R Markdown [(example report)](https://github.com/skammlade/skammlade.github.io/blob/master/projects/tableau/RScripts/NMDSAnalysisReport.Rmd)
+* create statistical report in R using R Markdown [(example report)](https://github.com/skammlade/skammlade.github.io/blob/master/projects/tableau/RScripts/NMDSAnalysis.markdown)
 * create interactive data visualizations in Tableau 
 * build temporary website for collaboration using HTML    
 
