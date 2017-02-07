@@ -36,9 +36,9 @@ permalink: /resume/
 
 #### Master's Thesis
 **Project Summary:** Evaluate the effects of management on soil health properties such as organic carbon, organic nitrogen, and soil microbial respiration; evalute the effects of location on soil food web composition where locations vary by amounts of soil organic carbon, organic nitrogen, and soil organic matter; determing the effects of potato genotype on soil food web composition.
-**Organization:** Colorado Potato Breeding and Selection Program
-**Dates:** January 2013 - December 2015
-**Workflow:**
+**Organization:** Colorado Potato Breeding and Selection Program  
+**Dates:** January 2013 - December 2015  
+**Workflow:**  
 
 * experimental design  
 * statistical analysis in SAS [(SAS scripts)](https://github.com/skammlade/manuscripts/tree/master/FoodWeb/SAS)
@@ -47,12 +47,12 @@ permalink: /resume/
 <br/>
 
 #### Weather Changes in Major U.S. Cities from 1940s-2016
-**Project Summary:** A closer look at weather changes in major metro areas across the United States and an attempt at quantifying the change in weather events which negatively impact daily life. Data retrieved from NOAA.org
-**Organization:* Personal project
-**Dates:** 2017
-**Workflow:**  
+**Project Summary:** A closer look at weather changes in major metro areas across the United States and an attempt at quantifying the change in weather events which negatively impact daily life. Data retrieved from NOAA.org  
+**Organization:* Personal project  
+**Dates:** 2017  
+**Workflow:**    
 
-* retrieve data from NOAA
-* clean and transform data in SQL Server [(SQL scripts)]()
-* visualize in RShiny app 
+* retrieve data from NOAA  
+* clean and transform data in SQL Server [(SQL scripts)]()  
+* visualize in RShiny app   
 
