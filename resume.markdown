@@ -35,15 +35,15 @@ permalink: /resume/
 <br/>
 
 #### Weather Data Analysis
-**Project Summary:** A closer look at weather changes in major metro areas across the United States. I looked at the greatest 100 hourly precipitation events from 1950-2016 in 9 major cities.
+**Project Summary:** A closer look at weather changes in major metro areas across the United States. I looked at the greatest 100 hourly precipitation events from 1950-2016 in 9 major cities.  
 **Organization:** Personal project  
-**Dates:** 2017  
+**Dates:** 2017   
 **Workflow:**    
 
 * retrieve data from NOAA  
 * clean and transform data in SQL Server [(SQL scripts)](https://github.com/skammlade/WeatherDataAnalysis)  
 * visualize in [RShiny app](https://skammlade.shinyapps.io/precipitationrankapp/) [(R scripts)](https://github.com/skammlade/WeatherDataAnalysis/tree/master/PrecipitationRankApp) 
-* markdown walkthrough [(README.md)](https://github.com/skammlade/WeatherDataAnalysis/blob/master/README.md)
+* report in markdown [(README.md)](https://github.com/skammlade/WeatherDataAnalysis/blob/master/README.md)
 
 <br/>
 
