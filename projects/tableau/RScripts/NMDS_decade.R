@@ -112,6 +112,7 @@ MDSFoodWeight<-metaMDS(dataNMDSDecadesCropsFoodWeight,
                     trymax = 20, 
                     stratmax=0.9999999999 )
 
+
 #stressplot to visualize fit of ordination
 StressplotCaloriesDecade <- stressplot(MDSCalories) 
 StressplotFatDecade <- stressplot(MDSFat)
@@ -175,20 +176,20 @@ groupsNMDSDecadesCropsFoodWeight<-pivotCropsFoodWeight[,1:2]
 
 NMDSCaloriesDecade <- data.frame(MDS1 = MDSCalories$points[,1], 
                                  MDS2 = MDSCalories$points[,2],
-                                 group = groupsNMDSDecadesCropsCalories$Year,
-                                 Country = MDSCalories$Country)
+                                 group = groupsNMDSDecadesCropsCalories$Decade,
+                                 Country = groupsNMDSDecadesCropsCalories$CountryName)
 NMDSFatDecade <- data.frame(MDS1 = MDSFat$points[,1], 
                                  MDS2 = MDSFat$points[,2],
-                                 group = groupsNMDSDecadesCropsFat$Year,
-                                 Country = MDSFat$Country)
+                                 group = groupsNMDSDecadesCropsFat$Decade,
+                                 Country = groupsNMDSDecadesCropsFat$CountryName)
 NMDSProteinDecade <- data.frame(MDS1 = MDSProtein$points[,1], 
                                  MDS2 = MDSProtein$points[,2],
-                                 group = groupsNMDSDecadesCropsProtein$Year,
-                                 Country = MDSProtein$Country)
+                                 group = groupsNMDSDecadesCropsProtein$Decade,
+                                 Country = groupsNMDSDecadesCropsProtein$CountryName)
 NMDSFoodWeightDecade <- data.frame(MDS1 = MDSFoodWeight$points[,1], 
                                  MDS2 = MDSFoodWeight$points[,2],
-                                 group = groupsNMDSDecadesCropsFoodWeight$Year,
-                                 Country = MDSFoodWeight$Country)
+                                 group = groupsNMDSDecadesCropsFoodWeight$Decade,
+                                 Country = groupsNMDSDecadesCropsFoodWeight$CountryName)
 
 
 NMDSCaloriesDecadeGroupAsFactor <- within(NMDSCaloriesDecade, 
@@ -218,7 +219,7 @@ plotCaloriesDecade <- ggplot(NMDSCaloriesDecadeGroupAsFactor,
                                 colour=group))+
                       geom_point()+
                       stat_ellipse()+
-                      scale_colour_manual(values=c("#ffffcc", #a1dab4", #41b6c4", "#2c7fb8", "#253494", 
+                      scale_colour_manual(values=c("#7fcdbb", "#41b6c4", "#1d91c0", "#225ea8", "#0c2c84", 
                                                    "#bd0026", "#f03b20", "#fd8d3c"),
                                           name="Decade")+
                       theme_bw()+
@@ -238,7 +239,7 @@ plotFatDecade <- ggplot(NMDSFatDecadeGroupAsFactor,
                                  colour=group))+
                 geom_point()+
                 stat_ellipse()+
-                scale_colour_manual(values=c("#ffffcc", #a1dab4", #41b6c4", "#2c7fb8", "#253494", 
+                scale_colour_manual(values=c("#7fcdbb", "#41b6c4", "#1d91c0", "#225ea8", "#0c2c84", 
                                              "#bd0026", "#f03b20", "#fd8d3c"),
                                     name="Decade")+
                 theme_bw()+
@@ -258,7 +259,7 @@ plotProteinDecade <- ggplot(NMDSProteinDecadeGroupAsFactor,
                                  colour=group))+
                      geom_point()+
                      stat_ellipse()+
-                     scale_colour_manual(values=c("#ffffcc", #a1dab4", #41b6c4", "#2c7fb8", "#253494", 
+                     scale_colour_manual(values=c("#7fcdbb", "#41b6c4", "#1d91c0", "#225ea8", "#0c2c84", 
                                                   "#bd0026", "#f03b20", "#fd8d3c"),
                                          name="Decade")+
                      theme_bw()+
@@ -279,7 +280,7 @@ plotFoodWeightDecade <- ggplot(NMDSFoodWeightDecadeGroupAsFactor,
                                  colour=group))+
                         geom_point()+
                         stat_ellipse()+
-                        scale_colour_manual(values=c("#ffffcc", #a1dab4", #41b6c4", "#2c7fb8", "#253494", 
+                        scale_colour_manual(values=c("#7fcdbb", "#41b6c4", "#1d91c0", "#225ea8", "#0c2c84", 
                                                      "#bd0026", "#f03b20", "#fd8d3c"),
                                             name="Decade")+
                         theme_bw()+
@@ -298,6 +299,231 @@ plotFoodWeightDecade <- ggplot(NMDSFoodWeightDecadeGroupAsFactor,
 #--------------------------------------------------------------------------
 #---------Additional scripts to obtain ellipses on 3 dimensions------------
 #--------------------------------------------------------------------------
+
+#Nonmetric multidimensional scaling with stable solution from random starts, axis scaling, and species scores
+MDSCalories3Dim<-metaMDS(dataNMDSDecadesCropsCalories,
+                       distance="bray",
+                       k=3, 
+                       trymax = 20, 
+                       stratmax=0.9999999999 )
+
+MDSFat3Dim<-metaMDS(dataNMDSDecadesCropsFat,
+                  distance="bray",
+                  k=3, 
+                  trymax = 20, 
+                  stratmax=0.9999999999 )
+
+MDSProtein3Dim<-metaMDS(dataNMDSDecadesCropsProtein,
+                      distance="bray",
+                      k=3, 
+                      trymax = 20, 
+                      stratmax=0.9999999999 )
+
+MDSFoodWeight3Dim<-metaMDS(dataNMDSDecadesCropsFoodWeight,
+                         distance="bray",
+                         k=3, 
+                         trymax = 20, 
+                         stratmax=0.9999999999 )
+
+
+#create variable 'NMDSGroups' with Country and Decade information
+NMDSGroups3Dim<-pivotCropsCalories[,1:2]
+
+#return NMDS coordinates for all Measurements including Country and Decade information
+NMDSCoordinatesCalories3Dim<-data.frame(MDS1 = MDSCalories3Dim$points[,1], 
+                                    MDS2 = MDSCalories3Dim$points[,2],
+                                    group=NMDSGroups3Dim$Decade,
+                                    Country=NMDSGroups3Dim$Country)
+NMDSCoordinatesFat3Dim<-data.frame(MDS1 = MDSFat3Dim$points[,1], 
+                               MDS2 = MDSFat3Dim$points[,2],
+                               group=NMDSGroups3Dim$Decade,
+                               Country=NMDSGroups3Dim$Country)
+NMDSCoordinatesProtein3Dim<-data.frame(MDS1 = MDSProtein3Dim$points[,1], 
+                                   MDS2 = MDSProtein3Dim$points[,2],
+                                   group=NMDSGroups3Dim$Decade,
+                                   Country=NMDSGroups3Dim$Country)
+NMDSCoordinatesFoodWeight3Dim<-data.frame(MDS1 = MDSFoodWeight3Dim$points[,1], 
+                                      MDS2 = MDSFoodWeight3Dim$points[,2],
+                                      group=NMDSGroups3Dim$Decade,
+                                      Country=NMDSGroups3Dim$Country)
+
+#add column 'ElementName' to dataframes
+NMDSCoordinatesCalories3Dim$ElementName <- rep("Calories", nrow(NMDSCoordinatesCalories3Dim))
+NMDSCoordinatesFat3Dim$ElementName <- rep("Fat", nrow(NMDSCoordinatesFat3Dim))
+NMDSCoordinatesProtein3Dim$ElementName <- rep("Protein", nrow(NMDSCoordinatesProtein3Dim))
+NMDSCoordinatesFoodWeight3Dim$ElementName <- rep("Food Weight", nrow(NMDSCoordinatesFoodWeight3Dim))
+
+#merge all measurement coordinates dataframes vertically into one dataframe
+NMDSCoordinatesDecadesAllMeasurements3Dim <- rbind(NMDSCoordinatesCalories3Dim,
+                                               NMDSCoordinatesFat3Dim,
+                                               NMDSCoordinatesProtein3Dim,
+                                               NMDSCoordinatesFoodWeight3Dim)
+
+#elipses
+
+groupsNMDSDecadesCropsCalories3Dim<-pivotCropsCalories[,1:2]
+groupsNMDSDecadesCropsFat3Dim<-pivotCropsFat[,1:2]
+groupsNMDSDecadesCropsProtein3Dim<-pivotCropsProtein[,1:2]
+groupsNMDSDecadesCropsFoodWeight3Dim<-pivotCropsFoodWeight[,1:2]
+
+
+NMDSCaloriesDecade3Dim <- data.frame(MDS1 = MDSCalories3Dim$points[,1], 
+                                 MDS2 = MDSCalories3Dim$points[,2],
+                                 group = groupsNMDSDecadesCropsCalories3Dim$Decade,
+                                 Country = groupsNMDSDecadesCropsCalories3Dim$CountryName)
+NMDSFatDecade3Dim <- data.frame(MDS1 = MDSFat3Dim$points[,1], 
+                            MDS2 = MDSFat3Dim$points[,2],
+                            group = groupsNMDSDecadesCropsFat3Dim$Decade,
+                            Country = groupsNMDSDecadesCropsFat3Dim$CountryName)
+NMDSProteinDecade3Dim <- data.frame(MDS1 = MDSProtein3Dim$points[,1], 
+                                MDS2 = MDSProtein3Dim$points[,2],
+                                group = groupsNMDSDecadesCropsProtein3Dim$Decade,
+                                Country = groupsNMDSDecadesCropsProtein3Dim$CountryName)
+NMDSFoodWeightDecade3Dim <- data.frame(MDS1 = MDSFoodWeight3Dim$points[,1], 
+                                   MDS2 = MDSFoodWeight3Dim$points[,2],
+                                   group = groupsNMDSDecadesCropsFoodWeight3Dim$Decade,
+                                   Country = groupsNMDSDecadesCropsFoodWeight3Dim$CountryName)
+
+
+NMDSCaloriesDecadeGroupAsFactor3Dim <- within(NMDSCaloriesDecade3Dim, 
+                                          group<-as.factor(group))
+NMDSFatDecadeGroupAsFactor3Dim <- within(NMDSFatDecade3Dim, 
+                                     group<-as.factor(group))
+NMDSProteinDecadeGroupAsFactor3Dim <- within(NMDSProteinDecade3Dim, 
+                                         group<-as.factor(group))
+NMDSFoodWeightDecadeGroupAsFactor3Dim <- within(NMDSFoodWeightDecade3Dim, 
+                                            group<-as.factor(group))
+
+
+NMDSCaloriesDecadeGroupAsFactor3Dim$ElementName <- rep("Calories", 
+                                                   nrow(NMDSCaloriesDecadeGroupAsFactor3Dim))
+NMDSFatDecadeGroupAsFactor3Dim$ElementName <- rep("Fat", 
+                                              nrow(NMDSFatDecadeGroupAsFactor3Dim))
+NMDSProteinDecadeGroupAsFactor3Dim$ElementName <- rep("Protein", 
+                                                  nrow(NMDSProteinDecadeGroupAsFactor3Dim))
+NMDSFoodWeightDecadeGroupAsFactor3Dim$ElementName <- rep("FoodWeight", 
+                                                     nrow(NMDSFoodWeightDecadeGroupAsFactor3Dim))
+library(ggplot2)
+
+#VIew NMDS plots and connect specific countries with lines
+plotCaloriesDecade3Dim <- ggplot(NMDSCaloriesDecadeGroupAsFactor3Dim, 
+                             aes(x=NMDSCaloriesDecadeGroupAsFactor3Dim$MDS1, 
+                                 y=NMDSCaloriesDecadeGroupAsFactor3Dim$MDS2, 
+                                 colour=group))+
+  geom_point()+
+  stat_ellipse()+
+  scale_colour_manual(values=c("#7fcdbb", "#41b6c4", "#1d91c0", "#225ea8", "#0c2c84", 
+                               "#bd0026", "#f03b20", "#fd8d3c"),
+                      name="Decade")+
+  theme_bw()+
+  xlab("NMDS 1")+
+  ylab("NMDS 2")+
+  labs(title="Calories 3 dimensions (plot first 2 of 3 dimensions)")+
+  geom_path(data=NMDSCaloriesDecadeGroupAsFactor3Dim[NMDSCaloriesDecadeGroupAsFactor3Dim$Country %in% c("China","Mongolia", "Maldives"),],
+            aes(x=MDS1, 
+                y=MDS2, 
+                group=Country, 
+                colour=Country), 
+            size=1)
+
+plotFatDecade <- ggplot(NMDSFatDecadeGroupAsFactor, 
+                        aes(x=NMDSFatDecadeGroupAsFactor$MDS1, 
+                            y=NMDSFatDecadeGroupAsFactor$MDS2, 
+                            colour=group))+
+  geom_point()+
+  stat_ellipse()+
+  scale_colour_manual(values=c("#7fcdbb", "#41b6c4", "#1d91c0", "#225ea8", "#0c2c84", 
+                               "#bd0026", "#f03b20", "#fd8d3c"),
+                      name="Decade")+
+  theme_bw()+
+  xlab("NMDS 1")+
+  ylab("NMDS 2")+
+  labs(title="Fat 2 dimensions")+
+  geom_path(data=NMDSFatDecadeGroupAsFactor[NMDSFatDecadeGroupAsFactor$Country %in% c("China","Mongolia", "Maldives"),],
+            aes(x=MDS1, 
+                y=MDS2, 
+                group=Country, 
+                colour=Country), 
+            size=1)
+
+plotProteinDecade <- ggplot(NMDSProteinDecadeGroupAsFactor, 
+                            aes(x=NMDSProteinDecadeGroupAsFactor$MDS1, 
+                                y=NMDSProteinDecadeGroupAsFactor$MDS2, 
+                                colour=group))+
+  geom_point()+
+  stat_ellipse()+
+  scale_colour_manual(values=c("#7fcdbb", "#41b6c4", "#1d91c0", "#225ea8", "#0c2c84", 
+                               "#bd0026", "#f03b20", "#fd8d3c"),
+                      name="Decade")+
+  theme_bw()+
+  xlab("NMDS 1")+
+  ylab("NMDS 2")+
+  labs(title="Protein 2 dimensions")+
+  geom_path(data=NMDSProteinDecadeGroupAsFactor[NMDSProteinDecadeGroupAsFactor$Country %in% c("China","Mongolia", "Maldives"),],
+            aes(x=MDS1, 
+                y=MDS2, 
+                group=Country, 
+                colour=Country), 
+            size=1)
+
+
+plotFoodWeightDecade <- ggplot(NMDSFoodWeightDecadeGroupAsFactor, 
+                               aes(x=NMDSFoodWeightDecadeGroupAsFactor$MDS1, 
+                                   y=NMDSFoodWeightDecadeGroupAsFactor$MDS2, 
+                                   colour=group))+
+  geom_point()+
+  stat_ellipse()+
+  scale_colour_manual(values=c("#7fcdbb", "#41b6c4", "#1d91c0", "#225ea8", "#0c2c84", 
+                               "#bd0026", "#f03b20", "#fd8d3c"),
+                      name="Decade")+
+  theme_bw()+
+  xlab("NMDS 1")+
+  ylab("NMDS 2")+
+  labs(title="FoodWeight 2 dimensions")+
+  geom_path(data=NMDSFoodWeightDecadeGroupAsFactor[NMDSFoodWeightDecadeGroupAsFactor$Country %in% c("China","Mongolia", "Maldives"),],
+            aes(x=MDS1, 
+                y=MDS2, 
+                group=Country, 
+                colour=Country), 
+            size=1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #Nonmetric multidimensional scaling with stable solution from random starts, axis scaling, and species scores
 3DimMDSCalories<-metaMDS(dataNMDSDecadesCropsCalories,
