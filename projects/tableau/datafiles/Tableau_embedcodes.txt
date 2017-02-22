@@ -7,7 +7,7 @@ https://github.com/skammlade/skammlade.github.io/tree/master/projects/tableau/im
 
 
 =====================================================
-------------Country Exploration Dashboard-------------
+------------Country Exploration Dashboard------------
 =====================================================
 
 <html>

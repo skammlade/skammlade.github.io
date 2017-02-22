@@ -134,19 +134,19 @@ NMDSGroups<-pivotCropsCalories[,1:2]
 NMDSCoordinatesCalories<-data.frame(MDS1 = MDSCalories$points[,1], 
                                      MDS2 = MDSCalories$points[,2],
                                      group=NMDSGroups$Decade,
-                                     Country=NMDSGroups$Country)
+                                     Country=NMDSGroups$CountryName)
 NMDSCoordinatesFat<-data.frame(MDS1 = MDSFat$points[,1], 
                                     MDS2 = MDSFat$points[,2],
                                     group=NMDSGroups$Decade,
-                                    Country=NMDSGroups$Country)
+                                    Country=NMDSGroups$CountryName)
 NMDSCoordinatesProtein<-data.frame(MDS1 = MDSProtein$points[,1], 
                                     MDS2 = MDSProtein$points[,2],
                                     group=NMDSGroups$Decade,
-                                    Country=NMDSGroups$Country)
+                                    Country=NMDSGroups$CountryName)
 NMDSCoordinatesFoodWeight<-data.frame(MDS1 = MDSFoodWeight$points[,1], 
                                     MDS2 = MDSFoodWeight$points[,2],
                                     group=NMDSGroups$Decade,
-                                    Country=NMDSGroups$Country)
+                                    Country=NMDSGroups$CountryName)
 
 #add column 'ElementName' to dataframes
 NMDSCoordinatesCalories$ElementName <- rep("Calories", nrow(NMDSCoordinatesCalories))
@@ -426,9 +426,9 @@ plotCaloriesDecade3Dim <- ggplot(NMDSCaloriesDecadeGroupAsFactor3Dim,
                 colour=Country), 
             size=1)
 
-plotFatDecade <- ggplot(NMDSFatDecadeGroupAsFactor, 
-                        aes(x=NMDSFatDecadeGroupAsFactor$MDS1, 
-                            y=NMDSFatDecadeGroupAsFactor$MDS2, 
+plotFatDecade <- ggplot(NMDSFatDecadeGroupAsFactor3Dim,
+                        aes(x=NMDSFatDecadeGroupAsFactor3Dim$MDS1, 
+                            y=NMDSFatDecadeGroupAsFactor3Dim$MDS2, 
                             colour=group))+
   geom_point()+
   stat_ellipse()+
@@ -438,17 +438,17 @@ plotFatDecade <- ggplot(NMDSFatDecadeGroupAsFactor,
   theme_bw()+
   xlab("NMDS 1")+
   ylab("NMDS 2")+
-  labs(title="Fat 2 dimensions")+
-  geom_path(data=NMDSFatDecadeGroupAsFactor[NMDSFatDecadeGroupAsFactor$Country %in% c("China","Mongolia", "Maldives"),],
+  labs(title="Fat 3 dimensions (plot first 2 of 3 dimensions)")+
+  geom_path(data=NMDSFatDecadeGroupAsFactor3Dim[NMDSFatDecadeGroupAsFactor3Dim$Country %in% c("China","Mongolia", "Maldives"),],
             aes(x=MDS1, 
                 y=MDS2, 
                 group=Country, 
                 colour=Country), 
             size=1)
 
-plotProteinDecade <- ggplot(NMDSProteinDecadeGroupAsFactor, 
-                            aes(x=NMDSProteinDecadeGroupAsFactor$MDS1, 
-                                y=NMDSProteinDecadeGroupAsFactor$MDS2, 
+plotProteinDecade <- ggplot(NMDSProteinDecadeGroupAsFactor3Dim, 
+                            aes(x=NMDSProteinDecadeGroupAsFactor3Dim$MDS1, 
+                                y=NMDSProteinDecadeGroupAsFactor3Dim$MDS2, 
                                 colour=group))+
   geom_point()+
   stat_ellipse()+
@@ -459,7 +459,7 @@ plotProteinDecade <- ggplot(NMDSProteinDecadeGroupAsFactor,
   xlab("NMDS 1")+
   ylab("NMDS 2")+
   labs(title="Protein 2 dimensions")+
-  geom_path(data=NMDSProteinDecadeGroupAsFactor[NMDSProteinDecadeGroupAsFactor$Country %in% c("China","Mongolia", "Maldives"),],
+  geom_path(data=NMDSProteinDecadeGroupAsFactor3Dim[NMDSProteinDecadeGroupAsFactor3Dim$Country %in% c("China","Mongolia", "Maldives"),],
             aes(x=MDS1, 
                 y=MDS2, 
                 group=Country, 
@@ -467,9 +467,9 @@ plotProteinDecade <- ggplot(NMDSProteinDecadeGroupAsFactor,
             size=1)
 
 
-plotFoodWeightDecade <- ggplot(NMDSFoodWeightDecadeGroupAsFactor, 
-                               aes(x=NMDSFoodWeightDecadeGroupAsFactor$MDS1, 
-                                   y=NMDSFoodWeightDecadeGroupAsFactor$MDS2, 
+plotFoodWeightDecade <- ggplot(NMDSFoodWeightDecadeGroupAsFactor3Dim, 
+                               aes(x=NMDSFoodWeightDecadeGroupAsFactor3Dim$MDS1, 
+                                   y=NMDSFoodWeightDecadeGroupAsFactor3Dim$MDS2, 
                                    colour=group))+
   geom_point()+
   stat_ellipse()+
@@ -480,7 +480,7 @@ plotFoodWeightDecade <- ggplot(NMDSFoodWeightDecadeGroupAsFactor,
   xlab("NMDS 1")+
   ylab("NMDS 2")+
   labs(title="FoodWeight 2 dimensions")+
-  geom_path(data=NMDSFoodWeightDecadeGroupAsFactor[NMDSFoodWeightDecadeGroupAsFactor$Country %in% c("China","Mongolia", "Maldives"),],
+  geom_path(data=NMDSFoodWeightDecadeGroupAsFactor3Dim[NMDSFoodWeightDecadeGroupAsFactor3Dim$Country %in% c("China","Mongolia", "Maldives"),],
             aes(x=MDS1, 
                 y=MDS2, 
                 group=Country, 
