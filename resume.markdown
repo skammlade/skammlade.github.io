@@ -7,16 +7,16 @@ permalink: /resume/
 <br/>
 
 #### The Changing Global Diet
-**Project Summary:**  Create interactive data visualizations associated with the publication [Khoury et. al 2014](http://dx.doi.org/10.1073/pnas.1313490111).  These visualizations will be featured on a new website exploring socio-political insights into global production and consumption of crop diversity on [https://ciat.cgiar.org/](https://ciat.cgiar.org/).  
+**Project Summary:**  Create interactive data visualizations associated with the publication [Khoury et. al 2014](http://dx.doi.org/10.1073/pnas.1313490111).  These visualizations will be featured on a new website exploring trends in global consumption of crop diversity on [https://ciat.cgiar.org/](https://ciat.cgiar.org/).  
 **Organization:** International Center for Tropical Agriculture (CIAT), Crop Wild Relatives Research Unit   
 **Dates:** August 2016 - Present  
 **Temporary website:** [http://skammlade.github.io/projects/tableau/TheChangingGlobalDiet.html](http://skammlade.github.io/projects/tableau/TheChangingGlobalDiet.html) 
 **Workflow:**
 
 * excel data files  
-* create database for data transformations and analysis in SQL Server [(SQL scripts)](https://github.com/skammlade/skammlade.github.io/tree/master/projects/tableau/SQLServerQueries)
+* create database for data transformations and analysis in SQL Server - started with raw data, built a suitable schema, loaded the raw data, cleaned and normalized the data, and wrote queries to analyze and ultimately visualize the data) [(SQL scripts)](https://github.com/skammlade/skammlade.github.io/tree/master/projects/tableau/SQLServerQueries)
 * conduct statistical analysis in R [(R scripts)](https://github.com/skammlade/skammlade.github.io/blob/master/projects/tableau/RScripts/NMDS_decade.R) 
-* create statistical report in R using R Markdown [(example report)](https://github.com/skammlade/skammlade.github.io/blob/master/projects/tableau/RScripts/NMDSAnalysis.markdown)
+* create statistical report in R using R Markdown for a species diversity analysis [(example report)](https://github.com/skammlade/skammlade.github.io/blob/master/projects/tableau/RScripts/NMDSAnalysis.markdown)
 * create interactive data visualizations in Tableau 
 * build temporary website for collaboration using HTML    
 
@@ -40,7 +40,7 @@ permalink: /resume/
 **Dates:** 2017   
 **Workflow:**    
 
-* retrieve data from NOAA  
+* retrieve data from NOAA 
 * clean and transform data in SQL Server [(SQL scripts)](https://github.com/skammlade/WeatherDataAnalysis)  
 * visualize in [RShiny app](https://skammlade.shinyapps.io/precipitationrankapp/) [(R scripts)](https://github.com/skammlade/WeatherDataAnalysis/tree/master/PrecipitationRankApp) 
 * report in markdown [(README.md)](https://github.com/skammlade/WeatherDataAnalysis/blob/master/README.md)
