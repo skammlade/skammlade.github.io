@@ -13,7 +13,6 @@ permalink: /resume/
 **Temporary website:** [http://skammlade.github.io/projects/tableau/TheChangingGlobalDiet.html](http://skammlade.github.io/projects/tableau/TheChangingGlobalDiet.html) 
 **Workflow:**
 
-* excel data files  
 * create database for data transformations and analysis in SQL Server - started with raw data, built a suitable schema, loaded the raw data, cleaned and normalized the data, and wrote queries to analyze and ultimately visualize the data) [(SQL scripts)](https://github.com/skammlade/skammlade.github.io/tree/master/projects/tableau/SQLServerQueries)
 * conduct statistical analysis in R [(R scripts)](https://github.com/skammlade/skammlade.github.io/blob/master/projects/tableau/RScripts/NMDS_decade.R) 
 * create statistical report in R using R Markdown for a species diversity analysis [(example report)](https://github.com/skammlade/skammlade.github.io/blob/master/projects/tableau/RScripts/NMDSAnalysis.markdown)
