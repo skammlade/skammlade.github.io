@@ -6,9 +6,9 @@ permalink: /resume/
 ***
 <br/>
 
-Linkedin: [skammlade](https://www.linkedin.com/in/skammlade/)  
-Github: [skammlade](https://github.com/skammlade/)  
-Tableau: [sara.kammlade](https://public.tableau.com/profile/sara.kammlade#!/)  
+**Linkedin:** [skammlade](https://www.linkedin.com/in/skammlade/)  
+**Github:** [skammlade](https://github.com/skammlade/)  
+**Tableau:** [sara.kammlade](https://public.tableau.com/profile/sara.kammlade#!/)  
 
 <br/>
 
@@ -17,7 +17,8 @@ Tableau: [sara.kammlade](https://public.tableau.com/profile/sara.kammlade#!/)
 **Organization:** International Center for Tropical Agriculture (CIAT), Crop Wild Relatives Research Unit   
 **Dates:** August 2016 - Present  
 **Website:** [http://skammlade.github.io/projects/tableau/TheChangingGlobalDiet.html](http://ciat.cgiar.org/the-changing-global-diet/)   
-**Writeup:**  [http://blog.ciat.cgiar.org/five-surprising-ways-peoples-diets-have-changed-over-the-past-50-years/](http://blog.ciat.cgiar.org/five-surprising-ways-peoples-diets-have-changed-over-the-past-50-years/)
+**Writeup:**  [http://blog.ciat.cgiar.org/five-surprising-ways-peoples-diets-have-changed-over-the-past-50-years/](http://blog.ciat.cgiar.org/five-surprising-ways-peoples-diets-have-changed-over-the-past-50-years/)   
+**Awards:**  Tableau 'Viz of the Day' April 24, 2017  
 **Workflow:**
 
 * create database for data transformations and analysis in SQL Server - started with raw data, built a suitable schema, loaded the raw data, cleaned and normalized the data, and wrote queries to analyze and ultimately visualize the data [(SQL scripts)](https://github.com/skammlade/skammlade.github.io/tree/master/projects/tableau/SQLServerQueries)
