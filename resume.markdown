@@ -6,11 +6,14 @@ permalink: /resume/
 ***
 <br/>
 
+
+
 #### The Changing Global Diet
 **Project Summary:**  Create interactive data visualizations associated with the publication [Khoury et. al 2014](http://dx.doi.org/10.1073/pnas.1313490111).  These visualizations will be featured on a new website exploring trends in global consumption of crop diversity on [https://ciat.cgiar.org/](https://ciat.cgiar.org/).  
 **Organization:** International Center for Tropical Agriculture (CIAT), Crop Wild Relatives Research Unit   
 **Dates:** August 2016 - Present  
-**Temporary website:** [http://skammlade.github.io/projects/tableau/TheChangingGlobalDiet.html](http://skammlade.github.io/projects/tableau/TheChangingGlobalDiet.html) 
+**Website:** [http://skammlade.github.io/projects/tableau/TheChangingGlobalDiet.html](http://ciat.cgiar.org/the-changing-global-diet/) 
+**Writeup:**  [http://blog.ciat.cgiar.org/five-surprising-ways-peoples-diets-have-changed-over-the-past-50-years/](http://blog.ciat.cgiar.org/five-surprising-ways-peoples-diets-have-changed-over-the-past-50-years/)
 **Workflow:**
 
 * create database for data transformations and analysis in SQL Server - started with raw data, built a suitable schema, loaded the raw data, cleaned and normalized the data, and wrote queries to analyze and ultimately visualize the data [(SQL scripts)](https://github.com/skammlade/skammlade.github.io/tree/master/projects/tableau/SQLServerQueries)
