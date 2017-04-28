@@ -6,14 +6,14 @@ permalink: /resume/
 ***
 <br/>
 
-Linkedin: [https://www.linkedin.com/in/skammlade/](skammlade)
-Github: [https://github.com/skammlade/](skammlade)
-Tableau: [https://public.tableau.com/profile/sara.kammlade#!/](sara.kammlade)
+Linkedin: [skammlade](https://www.linkedin.com/in/skammlade/)  
+Github: [skammlade](https://github.com/skammlade/)  
+Tableau: [sara.kammlade](https://public.tableau.com/profile/sara.kammlade#!/)  
 
 <br/>
 
 #### The Changing Global Diet
-**Project Summary:**  Create interactive data visualizations associated with the publication [Khoury et. al 2014](http://dx.doi.org/10.1073/pnas.1313490111).  These visualizations will be featured on a new website exploring trends in global consumption of crop diversity on [https://ciat.cgiar.org/](https://ciat.cgiar.org/).  
+**Project Summary:**  CIAT was interested in making existing research accessible to a wider audience and digging deeper into a large dataset. To that end I built multiple interactive dashboards in Tableau and helped design a compelling website to showcase key findings. In the process I cleaned raw source data, built a database of global crop consumption, performed data transformations, and conducted statistical analyses.     
 **Organization:** International Center for Tropical Agriculture (CIAT), Crop Wild Relatives Research Unit   
 **Dates:** August 2016 - Present  
 **Website:** [http://skammlade.github.io/projects/tableau/TheChangingGlobalDiet.html](http://ciat.cgiar.org/the-changing-global-diet/)   
