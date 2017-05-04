@@ -12,13 +12,10 @@ permalink: /resume/
 
 <br/>
 
-#### The Changing Global Diet
-**Project Summary:**  CIAT was interested in making existing research accessible to a wider audience and digging deeper into a large dataset. To that end I built multiple interactive dashboards in Tableau and helped design a compelling website to showcase key findings. In the process I cleaned raw source data, built a database of global crop consumption, performed data transformations, and conducted statistical analyses.     
-**Organization:** International Center for Tropical Agriculture (CIAT), Crop Wild Relatives Research Unit   
-**Dates:** August 2016 - Present  
-**Website:** [http://skammlade.github.io/projects/tableau/TheChangingGlobalDiet.html](http://ciat.cgiar.org/the-changing-global-diet/)   
-**Writeup:**  [http://blog.ciat.cgiar.org/five-surprising-ways-peoples-diets-have-changed-over-the-past-50-years/](http://blog.ciat.cgiar.org/five-surprising-ways-peoples-diets-have-changed-over-the-past-50-years/)   
-**Awards:**  Tableau 'Viz of the Day' April 24, 2017  
+#### [The Changing Global Diet](http://ciat.cgiar.org/the-changing-global-diet/)
+**Project Summary:**  CIAT was interested in making existing research accessible to a wider audience and digging deeper into a large dataset. To that end I built multiple interactive dashboards in Tableau and helped design a compelling website to showcase key findings. In the process I cleaned raw source data, built a database of global crop consumption, performed data transformations, and conducted statistical analyses.  Read more about the project in this (blog)[http://blog.ciat.cgiar.org/five-surprising-ways-peoples-diets-have-changed-over-the-past-50-years/](http://blog.ciat.cgiar.org/five-surprising-ways-peoples-diets-have-changed-over-the-past-50-years/]  
+**Organization:** International Center for Tropical Agriculture (CIAT)   
+**Recognition:**  Tableau 'Viz of the Day' April 24, 2017  
 **Workflow:**
 
 * create database for data transformations and analysis in SQL Server - started with raw data, built a suitable schema, loaded the raw data, cleaned and normalized the data, and wrote queries to analyze and ultimately visualize the data [(SQL scripts)](https://github.com/skammlade/skammlade.github.io/tree/master/projects/tableau/SQLServerQueries)
