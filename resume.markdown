@@ -13,8 +13,8 @@ permalink: /resume/
 <br/>
 
 #### [The Changing Global Diet](http://ciat.cgiar.org/the-changing-global-diet/)
-**Project Summary:**  CIAT was interested in making existing research accessible to a wider audience and digging deeper into a large dataset. To that end I built multiple interactive dashboards in Tableau and helped design a compelling website to showcase key findings. In the process I cleaned raw source data, built a database of global crop consumption, performed data transformations, and conducted statistical analyses.  Read more about the project in this (blog)[http://blog.ciat.cgiar.org/five-surprising-ways-peoples-diets-have-changed-over-the-past-50-years/](http://blog.ciat.cgiar.org/five-surprising-ways-peoples-diets-have-changed-over-the-past-50-years/]  
 **Organization:** International Center for Tropical Agriculture (CIAT)   
+**Project Summary:**  CIAT was interested in making existing research accessible to a wider audience and digging deeper into a large dataset. To that end I built multiple interactive dashboards in Tableau and helped design a compelling website to showcase key findings. In the process I cleaned raw source data, built a database of global crop consumption, performed data transformations, and conducted statistical analyses.  Read more about the project in this [blog](http://blog.ciat.cgiar.org/five-surprising-ways-peoples-diets-have-changed-over-the-past-50-years/).   
 **Recognition:**  Tableau 'Viz of the Day' April 24, 2017  
 **Workflow:**
 
@@ -27,9 +27,8 @@ permalink: /resume/
 <br/>
 
 #### Dietary fiber content in common bean from the middle american gene pool   
-**Project Summary:** Determine differences in fiber content (soluble fiber, insoluble fiber, and oligosaccharides) between races and market classes of dry beans. By quantifying one of the largest gene pools, breeders of *phaseoulous vulgaris* can use this information as a guide for choosing germplasm to incorporate into breeding programs with specific fiber improvement goals.    
-**Organization:** Colorado State University     
-**Dates:** May 2016 - December 2016    
+**Organization:** Colorado State University    
+**Project Summary:** Determine differences in fiber content (soluble fiber, insoluble fiber, and oligosaccharides) between races and market classes of dry beans. By quantifying one of the largest gene pools, breeders of *phaseoulous vulgaris* can use this information as a guide for choosing germplasm to incorporate into breeding programs with specific fiber improvement goals.     
 **Workflow:**   
 
 * statistical analysis in SAS [(SAS scripts)](https://github.com/skammlade/manuscripts/tree/master/bean_fiber/SAS)
@@ -39,9 +38,8 @@ permalink: /resume/
 <br/>
 
 #### Weather Data Analysis
-**Project Summary:** A closer look at weather changes in major metro areas across the United States. I looked at the greatest 100 hourly precipitation events from 1950-2016 in 9 major cities.  
 **Organization:** Personal project  
-**Dates:** 2017   
+**Project Summary:** A closer look at weather changes in major metro areas across the United States. I looked at the greatest 100 hourly precipitation events from 1950-2016 in 9 major cities.  
 **Workflow:**    
 
 * retrieve data from NOAA 
@@ -52,9 +50,8 @@ permalink: /resume/
 <br/>
 
 #### Master's Thesis
-**Project Summary:** Evaluate the effects of management on soil health properties such as organic carbon, organic nitrogen, and soil microbial respiration; evalute the effects of location on soil food web composition where locations vary by amounts of soil organic carbon, organic nitrogen, and soil organic matter; determine the effects of potato genotype on soil food web composition.   
-**Organization:** Colorado Potato Breeding and Selection Program    
-**Dates:** January 2013 - December 2015    
+**Organization:** Colorado Potato Breeding and Selection Program  
+**Project Summary:** Evaluate the effects of management on soil health properties such as organic carbon, organic nitrogen, and soil microbial respiration; evalute the effects of location on soil food web composition where locations vary by amounts of soil organic carbon, organic nitrogen, and soil organic matter; determine the effects of potato genotype on soil food web composition.    
 **Workflow:**    
 
 * experimental design  
