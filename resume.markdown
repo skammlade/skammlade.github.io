@@ -14,7 +14,7 @@ permalink: /resume/
 
 #### [The Changing Global Diet](http://ciat.cgiar.org/the-changing-global-diet/)
 **Organization:** International Center for Tropical Agriculture (CIAT)   
-**Project Summary:**  CIAT was interested in making existing research accessible to a wider audience and digging deeper into a large dataset. To that end I built multiple interactive dashboards in Tableau and helped design a compelling website to showcase key findings. In the process I cleaned raw source data, built a database of global crop consumption, performed data transformations, and conducted statistical analyses.  Read more about the project in this [blog](http://blog.ciat.cgiar.org/five-surprising-ways-peoples-diets-have-changed-over-the-past-50-years/).   
+**Project Summary:**  CIAT was interested in making existing research accessible to a wider audience and digging deeper into a large dataset. To that end I built multiple interactive dashboards in Tableau and helped design a compelling website to showcase key findings. In the process I cleaned raw source data, built a database of global crop consumption, performed data transformations, and conducted statistical analyses.  Read more about the project in this [**blog**](http://blog.ciat.cgiar.org/five-surprising-ways-peoples-diets-have-changed-over-the-past-50-years/).   
 **Recognition:**  Tableau 'Viz of the Day' April 24, 2017  
 **Workflow:**
 
@@ -22,7 +22,7 @@ permalink: /resume/
 * conduct statistical analysis in R [(R scripts)](https://github.com/skammlade/skammlade.github.io/blob/master/projects/tableau/RScripts/NMDS_decade.R) 
 * create statistical report in R using R Markdown for a species diversity analysis [(example report)](https://github.com/skammlade/skammlade.github.io/blob/master/projects/tableau/RScripts/NMDSAnalysis.markdown)
 * create interactive data visualizations in Tableau 
-* build temporary website for collaboration using HTML    
+* build [temporary website](http://skammlade.github.io/projects/tableau/TheChangingGlobalDiet.html) for collaboration using HTML    
 
 <br/>
 
