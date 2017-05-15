@@ -10,7 +10,7 @@ categories: dataviz
 	<title></title>
 </head>
 <body>
-	<div class='tableauPlaceholder' id='viz1494871438638' style='position: relative'>
+	<div class='tableauPlaceholder' id='viz1494871438638' style="margin-left:13%;padding:1px 16px;height:755px;">
 		<noscript><a href='http:&#47;&#47;ciat.cgiar.org&#47;the-changing-global-diet&#47;'><img alt='ChangingGlobalDiet ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CG&#47;CGDinfographictest&#47;ChangingGlobalDiet&#47;1_rss.png' style='border: none'></a></noscript><object class='tableauViz' style='display:none;'>
 			<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'>
 			 <param name='site_root' value=''>
