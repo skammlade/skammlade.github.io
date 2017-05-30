@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Horsetooth Time Trial Series"
+date:   2017-05-30 
+categories: dataviz
+---
+![HTdams](https://raw.githubusercontent.com/skammlade/skammlade.github.io/master/images/dams_handlebar.jpg)
+<br> 
+<br> 
+<br> 
+Fort Collins, CO is home to a thriving grassroots racing scene. Your Group Ride hosts an annual time trial every Tuesday in April known as the [Horsetooth Time Trial Series](http://yourgroupride.com/index.php/local-races/horsetooth-time-trial-series). The hilly **14.35 mile** course runs along Horsetooth Reservoire and
+Horsetooth Mountain Park climbing a total of **1,336 feet**. 
+<br> 
+<br>
+<br>
+<iframe style="width:100%;height:600px;" src="https://veloviewer.com/segments/1213731/embed2" frameborder="0" scrolling="no"></iframe>  
+<br> 
+<br> 
+<br> 
+
+
+<div class='tableauPlaceholder' id='viz1496171741006' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;HT&#47;HTTT&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='HTTT&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;HT&#47;HTTT&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1496171741006');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1124px';vizElement.style.height='2029px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
